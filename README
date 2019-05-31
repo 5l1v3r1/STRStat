@@ -1,0 +1,28 @@
+This is STRStat Version 1.0
+
+
+COMPILE
+*******
+To compile this project you need Java 1.6, "ant" and "make".
+To run the application, on the console type:
+make run
+and the program should compile and run.
+
+
+RUN
+***
+If you have downloaded the binary package, it comes in two flavours: with and without administrative rights. The fist type needs an administrator password to "log in" or if fails back to non-administrator mode.
+In non-administrator mode all save/load functions are disabled and only the default database will be loaded, found under "lib/default.db". The default database should be in binary format (Object stream serialization of the complete database).
+
+In administrator mode all these restrictions are lifted and default database could be text. Administrator rights are granted if the required modules are present and the user enters the correct password. The default password is "pass" and is stored in file "authorize.key".
+
+If you have compiled the application from the sources, it is always in administration mode.
+
+
+CONTACT
+*******
+If you have any questions and you want to contact me, my email address is:
+
+panayotis@panayotis.com
+
+Panayotis Katsaloulis
